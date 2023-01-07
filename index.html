@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Class-3_Grid & Flex</title>
+        
+        <!--Bootstrap css Link-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+        <!--custom css file directory-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--mediaquery or breakpoint custom css directory-->
+        <link rel="stylesheet" href="css/media.css">
+
+    </head>
+
+    <body>
+
+        <!--Bootstrap Container Class-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="box mb-2"></div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="box mb-2"></div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+        <!--Nested Grid & Flex-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="box mb-2"></div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="box mb-2"></div>
+                        </div>
+                    </div>
+                </div>
+                        <div class="col-lg-4">
+                            <div class="box mb-2"></div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="box mb-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!--Offset-->
+        <div class="container">
+            <div class="row">
+                <div class="offset-4 col-lg-4">
+                    <div class="box mb-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Justify content Center-->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="box mb-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Custom Breakpoints for Different Screen Sizes-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg col-md-3 col-sm-4 col-3">
+                    <div class="box mb-2"></div>
+                </div>
+
+                <div class="col-lg-7 col-md-6 col-sm-4 col-6">
+                    <div class="box mb-2"></div>
+                </div>
+
+                <div class="col-lg col-md-3 col-sm-4 col-3">
+                    <div class="box mb-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--CSS Grid-->
+        <div class="grid text-center">
+            <div class="g-col-4">.g-col-4</div>
+            <div class="g-col-4">.g-col-4</div>
+            <div class="g-col-4">.g-col-4</div>
+        </div>
+
+        <div class="grid text-center">
+            <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+            <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+            <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+        </div>
+
+        
+
+        <!--Bootstrap Container-Fluid Class-->
+        <!--<div class="container-fluid">
+            <div class="box"></div>
+        </div>-->
+        
+        <!--Bootstrap JavaScript Links-->
+        <script src="js/bootstrap.bundle.js"></script>
+
+        <!--custom JavaScript file Directory-->
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
